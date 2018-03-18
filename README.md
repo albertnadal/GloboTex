@@ -1,7 +1,7 @@
 GloboTex
 ========
 
-GloboTex és un compilador de documents LaTeX a HTML desenvolupant en C++ emprant els analitzadors lèxics i sintàctics Flex++-2.3.8-6 i Bison++-1.21-5. Es tracta del meu projecte de final de carrera d'enginyeria tècnica en informàtica de gestió desenvolupat durant el mesos de maig i juny de 2003.
+GloboTex és un compilador de documents LaTeX a HTML desenvolupat en C++ emprant els analitzadors lèxics i sintàctics Flex++-2.3.8-6 i Bison++-1.21-5. Es tracta del meu projecte de final de carrera d'enginyeria tècnica en informàtica de gestió desenvolupat durant el mesos de maig i juny de 2003.
 
 
 Dependencies
