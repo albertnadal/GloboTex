@@ -1,0 +1,13 @@
+#!/bin/sh
+#ps2gif <fitxer_ps> <fitxer_gif> <ressolució>
+#Requereix tenir Ghostscript i les utilitats pbmplus instal·lat.
+
+echo "["$2"]" >&2
+gs -sDEVICE=ppmraw -sOutputFile=- -sNOPAUSE -r$3 -q $1 -c showpage -c quit | pnmcrop -quiet | pnmmargin -white 10 | ppmquant 256 -quiet | ppmtogif -quiet >$2
+
+
+
+
+
+
+

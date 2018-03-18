@@ -1,0 +1,16 @@
+#!/bin/sh
+#latex2gif <nom_fitxer_ps_sense_extensio> <nom_fitxer_gif_sense_extensio>
+#Requereix latex, dvips i ps2gif.
+
+vlatexp -q -n1 @latex $1.tex > /dev/null
+./ps2gif $1.ps $2.gif 140
+rm $1.tex
+rm $1.aux
+rm $1.log
+rm $1.ps
+
+
+
+
+
+
